@@ -1,9 +1,3 @@
-/*--Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
- --*/
-
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -96,7 +90,7 @@ a.navbar-brand {
 /* banner */
 
 .banner {
-    background: url(../images/slide.jpg) bottom no-repeat;
+    background: url(../images/K13.JPG) bottom repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -106,7 +100,7 @@ a.navbar-brand {
 }
 
 .inner-banner {
-    background: url(../images/slide.jpg)no-repeat;
+    background: url(../images/testi.jpg)no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
