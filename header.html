@@ -25,7 +25,7 @@
 
         <!-- header -->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary pt-3">
+            <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-gradient-secondary pt-3">
                 <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav ml-lg-auto text-center">
-                        <li class="nav-item  mr-3 active">
+                        <li class="nav-item  mr-3">
                             <a class="nav-link text-white " href="index.html">Home
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -42,23 +42,31 @@
                             <a class="nav-link text-white text-capitalize" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item  mr-3 ">
-                            <a class="nav-link text-white text-capitalize" href="Gallery.html">Gallery</a>
+                            <a class="nav-link text-white text-capitalize" href="services.html">Services</a>
                         </li>
-                        
-                        <li class="nav-item  mr-3 ">
-                            <a class="nav-link text-white text-capitalize" href="services.html">services</a>
-                        </li>
-                         <li class="nav-item">
+                         <li class="nav-item mr-3">
                             <a class="nav-link  text-white text-capitalize" href="Online Booking.html">Online Booking</a>
                         </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link  text-white text-capitalize" href="contact.html">contact</a>
+                        <li class="nav-item  mr-3 ">
+                            <a class="nav-link text-white text-capitalize" href="Gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link  text-white text-capitalize" href="contact.html">Contact</a>
                         </li>
                     </ul>
+                    <script>
+                        var active = 0;
+for (var i = 0; i < document.links.length; i++) {
+    if (document.links[i].href === document.URL) {
+        active = i;
+    }
+}
+document.links[active].className = 'active';
+                    </script>
                 </div>
 
             </nav>
         </header>
         <!-- //header -->
 </html>
+
