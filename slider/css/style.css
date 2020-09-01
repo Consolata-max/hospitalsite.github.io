@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    overflow: hidden;
+    font-family: 'Special Elite', cursive;
+    background-size: cover;
+}
+
+/*-- Navbar--*/
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1em;
+    background: rgba(0,0,0,.4)!important;
+}
+
+/*-- resizing the Logo--*/
+
+.navbar-brand img {
+    height: 3em;
+}
+/*-- end of re sizing--*/
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(124, 222, 235);
+    padding-top: .8rem;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#0980f7;
+}
+/*--slider--*/
+ .carousel-item {
+     width: 100%;
+     height: 100vh;
+     background-size: 100% 100%;
+ }
